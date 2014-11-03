@@ -21,7 +21,7 @@ import java.io.InputStream;
 /**
  * Created by johnlindquist on 11/1/14.
  */
-public class EggheadApplicationComponent implements ApplicationComponent {
+public class DarkerulaApplicationComponent implements ApplicationComponent {
 
     private final String eggheadDark = "EggheadDark";
 
@@ -33,7 +33,7 @@ public class EggheadApplicationComponent implements ApplicationComponent {
             e.printStackTrace();
         }
         try {
-            UIManager.setLookAndFeel(new EggheadDarkLAF());
+            UIManager.setLookAndFeel(new DarkerulaLAF());
             JBColor.setDark(true);
             IconLoader.setUseDarkIcons(true);
         } catch (UnsupportedLookAndFeelException e) {
@@ -58,7 +58,7 @@ public class EggheadApplicationComponent implements ApplicationComponent {
     @NotNull
     @Override
     public String getComponentName() {
-        return "EggheadApplicationComponent";
+        return "DarkerulaApplicationComponent";
     }
 
 

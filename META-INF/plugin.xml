@@ -1,8 +1,8 @@
 <idea-plugin version="2">
-  <id>io.egghead.EggheadIOLAF</id>
-  <name>EggheadIOLAF</name>
+  <id>com.johnlindquist.Darkerula</id>
+  <name>Darkerula</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="johnlindquist@gmail.com" url="http://www.johnlindquist.com">John Lindquist</vendor>
 
   <description><![CDATA[
       Enter short description for your plugin here.<br>
@@ -31,7 +31,7 @@
   <application-components>
     <!-- Add your application components here -->
     <component>
-      <implementation-class>EggheadApplicationComponent</implementation-class>
+      <implementation-class>DarkerulaApplicationComponent</implementation-class>
     </component>
   </application-components>
 

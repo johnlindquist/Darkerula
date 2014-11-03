@@ -25,12 +25,12 @@ import java.util.Properties;
  * Created by johnlindquist on 11/1/14.
  * Overriding/copying @kb's work
  */
-public class EggheadDarkLAF extends DarculaLaf {
+public class DarkerulaLAF extends DarculaLaf {
 
     BasicLookAndFeel base;
 
 
-    public EggheadDarkLAF() {
+    public DarkerulaLAF() {
         try {
             if (SystemInfo.isWindows || SystemInfo.isLinux) {
                 base = new IdeaLaf();
