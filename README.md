@@ -10,6 +10,12 @@ Vote!
 Vote here so we can do this without hacks! 
 - https://youtrack.jetbrains.com/issue/IDEA-132299
 
+Install
+========
+- Download https://github.com/johnlindquist/Darkerula/blob/master/Darkerula.jar?raw=true
+- Preferences->Plugins->Install plugin from disk
+- Restart
+
 Problems
 ========
 * This plugin will automatically force your IDE into a darker UI each time the IDE launches. If you don't like it, uninstall it.
