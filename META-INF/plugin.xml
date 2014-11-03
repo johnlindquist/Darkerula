@@ -1,17 +1,15 @@
 <idea-plugin version="2">
   <id>com.johnlindquist.Darkerula</id>
   <name>Darkerula</name>
-  <version>1.0</version>
+  <version>0.1</version>
   <vendor email="johnlindquist@gmail.com" url="http://www.johnlindquist.com">John Lindquist</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      A darker darcula UI theme
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      First release
     ]]>
   </change-notes>
 
