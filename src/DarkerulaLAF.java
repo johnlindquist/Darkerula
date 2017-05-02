@@ -152,14 +152,4 @@ public class DarkerulaLAF extends DarculaLaf {
         }
         catch (IOException e) {log(e);}
     }
-
-
-
-    @SuppressWarnings("UnusedParameters")
-    private static void log(Exception e) {
-//    everything is gonna be alright
-    e.printStackTrace();
-    }
-
-
 }
