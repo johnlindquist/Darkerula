@@ -101,7 +101,7 @@ public class DarkerulaApplicationComponent implements ApplicationComponent {
 
         final Element root = document.getRootElement();
 
-        final EditorColorsSchemeImpl scheme = new EditorColorsSchemeImpl(null, DefaultColorSchemesManager.getInstance());
+        final EditorColorsSchemeImpl scheme = new EditorColorsSchemeImpl(null);
         scheme.readExternal(root);
         return scheme;
     }
